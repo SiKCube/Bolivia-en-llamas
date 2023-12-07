@@ -96,7 +96,3 @@ def comments():
         Comment.add_comment(nombre=nombre, comentario=comentario)
         return redirect(url_for("home"))
     return template_env.get_template('comments.html').render(comments=Comment.read_all())
-
-
-if __name__ == '__main__':
-    app.run(debug=True, port=1000)
