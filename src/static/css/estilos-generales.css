@@ -1,0 +1,41 @@
+article {
+    margin: 1cm;
+}
+
+footer {
+    margin: 1cm;
+}
+
+.info-box-txt {
+    text-align: center;
+}
+
+.box-width {
+    width: 15rem;
+}
+
+a {
+    color: red;
+}
+
+.card-box {
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px gainsboro;
+    padding: 20px;
+    transition: 100ms;
+}
+
+.red-a {
+    color: red;
+    text-decoration: none;
+    width: 8rem;
+    transition: 100ms;
+}
+
+.red-a:hover {
+    font-weight: bold;
+}
+
+.card-box:hover {
+    box-shadow: 0px 0px 15px grey;
+}
