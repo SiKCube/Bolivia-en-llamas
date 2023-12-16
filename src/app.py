@@ -4,7 +4,7 @@ from jinja2 import FileSystemLoader, Environment
 
 app = Flask(__name__)
 
-#Flask CONFIGURATION
+#Flask CONFIGURATION 
 
 template_loader = FileSystemLoader(app.template_folder)
 template_env = Environment(loader=template_loader, auto_reload=True)
